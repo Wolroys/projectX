@@ -4,11 +4,41 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/config-service" name="config-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/config-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/entity-module" name="entity-module">
+                <projects>
+                  <project path="$PROJECT_DIR$/entity-module" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/user-service" name="user-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/user-service" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/X_server" name="X_server">
+                <projects>
+                  <project path="$PROJECT_DIR$/X_server" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.0.2" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/X_server" />
+            <option value="$PROJECT_DIR$/config-service" />
+            <option value="$PROJECT_DIR$/entity-module" />
+            <option value="$PROJECT_DIR$/user-service" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -25,6 +55,22 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/config-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/entity-module" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/entity-module" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/user-service" />
           </set>
         </option>
       </GradleProjectSettings>

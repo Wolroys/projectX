@@ -9,5 +9,5 @@ spring:
         git:
           uri: https://github.com/Wolroys/configuration_Xproject
           username: Wolroys
-          password: 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
+          password: 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
           default-label: main
