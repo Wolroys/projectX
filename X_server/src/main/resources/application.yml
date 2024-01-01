@@ -1,0 +1,15 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+server:
+  port: 8761
+
+spring:
+  cloud:
+    config:
+      fail-fast: false
+  application:
+    name: social-server
+  config:
+    import: configserver:http://localhost:8888
