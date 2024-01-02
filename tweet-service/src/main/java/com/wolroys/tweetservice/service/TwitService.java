@@ -59,4 +59,11 @@ public class TwitService {
                     return true;
                 }).orElse(false);
     }
+
+    public List<PostDto> findByHashtags(List<String> hashtags){
+        return twitRepository.findByHashtags(hashtags)
+                .stream().map(twit ->
+                        mapper.mapToDtoOrEntity(twit, PostDto.class))
+                .toList();
+    }
 }

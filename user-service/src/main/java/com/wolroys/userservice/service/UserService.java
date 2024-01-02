@@ -1,5 +1,6 @@
 package com.wolroys.userservice.service;
 
+import com.wolroys.entitymodule.dto.PostDto;
 import com.wolroys.entitymodule.dto.UserDto;
 import com.wolroys.entitymodule.mapper.UserMapper;
 import com.wolroys.userservice.repository.UserRepository;
@@ -47,4 +48,5 @@ public class UserService {
                     return true;
                 }).orElse(false);
     }
+
 }
