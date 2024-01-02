@@ -17,6 +17,11 @@
                   <project path="$PROJECT_DIR$/entity-module" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/gateway-service" name="gateway-service">
+                <projects>
+                  <project path="$PROJECT_DIR$/gateway-service" />
+                </projects>
+              </build>
               <build path="$PROJECT_DIR$/user-service" name="user-service">
                 <projects>
                   <project path="$PROJECT_DIR$/user-service" />
@@ -38,6 +43,7 @@
             <option value="$PROJECT_DIR$/X_server" />
             <option value="$PROJECT_DIR$/config-service" />
             <option value="$PROJECT_DIR$/entity-module" />
+            <option value="$PROJECT_DIR$/gateway-service" />
             <option value="$PROJECT_DIR$/user-service" />
           </set>
         </option>
@@ -63,6 +69,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/entity-module" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gateway-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/gateway-service" />
           </set>
         </option>
       </GradleProjectSettings>

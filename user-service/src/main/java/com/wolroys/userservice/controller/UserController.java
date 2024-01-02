@@ -2,7 +2,6 @@ package com.wolroys.userservice.controller;
 
 import com.wolroys.entitymodule.dto.UserDto;
 import com.wolroys.userservice.service.UserService;
-import jakarta.ws.rs.GET;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
