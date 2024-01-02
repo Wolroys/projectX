@@ -4,5 +4,6 @@ includeBuild 'entity-module'
 includeBuild 'user-service'
 includeBuild 'gateway-service'
 includeBuild 'config-service'
+includeBuild 'tweet-service'
 includeBuild 'X_server'
 

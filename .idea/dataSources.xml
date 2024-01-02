@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/twitter-user</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="twitter-post@localhost" uuid="83786b6a-c50a-43b3-b0d9-ad207e0e1931">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/twitter-post</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
