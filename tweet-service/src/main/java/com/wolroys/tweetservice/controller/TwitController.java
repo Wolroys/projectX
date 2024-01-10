@@ -46,8 +46,8 @@ public class TwitController {
     }
 
     @PostMapping("/twitsByHashtags")
-    public List<PostDto> getPostsByHashtags(@RequestBody HashtagRequest hashtags){
+    public List<PostDto> getPostsByHashtags(@RequestBody HashtagRequest hashtags) {
         List<String> list = hashtags.getHashtags();
         return twitService.findByHashtags(list);
-    }
+                                                                                                                                                                                                                                                                                                                                         }
 }

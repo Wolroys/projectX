@@ -79,6 +79,22 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/feed-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/feed-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/follow-service" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/follow-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/gateway-service" />
         <option name="modules">
           <set>
